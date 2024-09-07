@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+html, body, #root, .App, .content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif ;
+}
+
+.App {
+  display: flex;
+  position: relative;
+}
+
+
+.css-1k6w4vv-MuiAvatar-root {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0 auto;
+  font-size: 40px !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
