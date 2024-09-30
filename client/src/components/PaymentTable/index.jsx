@@ -273,7 +273,7 @@ const PaymentsTable = () => {
             matchesFilter = isNotPaid;
         }
 
-        return (registrationDate <= selectedDate) &&
+        return (registrationDate.getFullYear() === selectedYear && registrationDate.getMonth() === selectedMonth) &&
             (member.membershipNumber.toString().includes(searchQuery) ||
                 member.name.toLowerCase().includes(searchQuery.toLowerCase())) &&
             matchesFilter;
